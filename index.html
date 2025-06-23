@@ -1,11 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Free Website</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
 </head>
 <body>
-  <h1>Welcome to My Website</h1>
-  <p>This is a simple free website built with HTML & CSS.</p>
+    <h1>Order Summary</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>BUYER</th>
+                <th>STYLE</th>
+                <th>PO</th>
+                <th>COUNTRY</th>
+                <th>COLOUR</th>
+                <th>ORDER QTY</th>
+                <th>SHIP QTY</th>
+                <th>SHORT EXCESS</th>
+                <th>CTN QTY</th>
+                <th>CBM</th>
+                <th>STATUS</th>
+                <th>DATE</th>
+                <th>UPLOAD FILE 1</th>
+                <th>UPLOAD FILE 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Example data row, replace with your own data -->
+            <tr>
+                <td>Example Buyer</td>
+                <td>Style 101</td>
+                <td>PO1234</td>
+                <td>Bangladesh</td>
+                <td>Red</td>
+                <td>500</td>
+                <td>500</td>
+                <td>0</td>
+                <td>50</td>
+                <td>5.0</td>
+                <td>Shipped</td>
+                <td>2025-06-23</td>
+                <td><a href="#">Download File 1</a></td>
+                <td><a href="#">Download File 2</a></td>
+            </tr>
+            <!-- Additional rows can go here -->
+        </tbody>
+    </table>
 </body>
 </html>
